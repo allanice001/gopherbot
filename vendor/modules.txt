@@ -3,7 +3,7 @@ github.com/fatih/color
 # github.com/git-chglog/git-chglog v0.0.0-20190611050339-63a4e637021f
 github.com/git-chglog/git-chglog
 github.com/git-chglog/git-chglog/cmd/git-chglog
-# github.com/go-redis/redis v6.15.7+incompatible
+# github.com/go-redis/redis v6.15.9+incompatible
 ## explicit
 github.com/go-redis/redis
 github.com/go-redis/redis/internal
@@ -12,7 +12,7 @@ github.com/go-redis/redis/internal/hashtag
 github.com/go-redis/redis/internal/pool
 github.com/go-redis/redis/internal/proto
 github.com/go-redis/redis/internal/util
-# github.com/google/go-cmp v0.4.0
+# github.com/google/go-cmp v0.5.6
 ## explicit
 github.com/google/go-cmp/cmp
 github.com/google/go-cmp/cmp/internal/diff
@@ -21,7 +21,7 @@ github.com/google/go-cmp/cmp/internal/function
 github.com/google/go-cmp/cmp/internal/value
 # github.com/gorilla/websocket v1.2.0
 github.com/gorilla/websocket
-# github.com/heroku/x v0.0.22
+# github.com/heroku/x v0.0.62
 ## explicit
 github.com/heroku/x/hmetrics
 github.com/heroku/x/hmetrics/onload
@@ -62,11 +62,12 @@ github.com/slack-go/slack/slackutilsx
 github.com/tsuyoshiwada/go-gitcmd
 # github.com/urfave/cli v1.21.0
 github.com/urfave/cli
-# github.com/valyala/fastjson v1.5.1
+# github.com/valyala/fastjson v1.5.5
 ## explicit
 github.com/valyala/fastjson
 github.com/valyala/fastjson/fastfloat
-# golang.org/x/sys v0.0.0-20200302150141-5c8b2ff67527
+# golang.org/x/sys v0.0.0-20211102061401-a2f17f7b995c
+golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
 # golang.org/x/tools v0.0.0-20200420001825-978e26b7c37c
 ## explicit
