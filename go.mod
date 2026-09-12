@@ -10,7 +10,7 @@ require (
 	github.com/heroku/x v0.0.22
 	github.com/onsi/ginkgo v1.10.1 // indirect
 	github.com/onsi/gomega v1.7.0 // indirect
-	github.com/robinjoseph08/redisqueue v1.1.0
+	github.com/robinjoseph08/redisqueue/v2 v2.1.0
 	github.com/rs/zerolog v1.18.0
 	github.com/slack-go/slack v0.6.4
 	github.com/valyala/fastjson v1.5.1
