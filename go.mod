@@ -2,7 +2,7 @@
 
 module github.com/gobridge/gopherbot
 
-go 1.14
+go 1.16
 
 require (
 	github.com/go-redis/redis v6.15.7+incompatible
