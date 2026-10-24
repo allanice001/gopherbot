@@ -350,7 +350,7 @@ func (Encoder) AppendFloats64(dst []byte, vals []float64) []byte {
 		return append(dst, '[', ']')
 	}
 	dst = append(dst, '[')
-	dst = appendFloat(dst, vals[0], 32)
+	dst = appendFloat(dst, vals[0], 64)
 	if len(vals) > 1 {
 		for _, val := range vals[1:] {
 			dst = appendFloat(append(dst, ','), val, 64)
@@ -379,11 +379,10 @@ func (Encoder) AppendObjectData(dst []byte, o []byte) []byte {
 	//    to separate with existing content OR
 	// 3. existing content has already other fields
 	if o[0] == '{' {
-		if len(dst) == 0 {
-			o = o[1:]
-		} else {
-			o[0] = ','
+		if len(dst) > 1 {
+			dst = append(dst, ',')
 		}
+		o = o[1:]
 	} else if len(dst) > 1 {
 		dst = append(dst, ',')
 	}
